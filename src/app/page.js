@@ -88,6 +88,9 @@ export default function Home() {
     setAuthenUsername(null);
     setToken(null);
     setMyCourses(null);
+
+    localStorage.removeItem("token");
+    localStorage.removeItem("username");
   };
 
   return (
